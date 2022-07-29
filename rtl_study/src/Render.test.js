@@ -15,10 +15,5 @@ describe("Rendering",()=>{
     expect(screen.getByRole('textbox')).toBeTruthy();//inputタグが存在するかのチェック
     expect(screen.getAllByRole("button")[0]).toBeTruthy();//buttonが存在するかのチェック
     expect(screen.getAllByRole("button")[1]).toBeTruthy();//buttonが存在するかのチェック
-
-    expect(screen.getByText('Testing')).toBeTruthy();//textチェック
-    expect(screen.queryByText('Fake')).toBeNull();//nullを返す
-    
-    expect(screen.getByTestId('test')).toBeTruthy();//id存在のチェック
   })
 })
