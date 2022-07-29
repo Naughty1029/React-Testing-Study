@@ -8,7 +8,7 @@ const Render = () => {
       <button>Click</button>
       <button>Click02</button>
       <p>Testing</p>
-      <span>@React</span>
+      <span data-testid='test'>@React</span>
     </div>
   )
 }
