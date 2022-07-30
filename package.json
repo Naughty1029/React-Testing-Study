@@ -9,10 +9,5 @@
     "fix": "npm run format && npm run lint:fix",
     "format": "prettier --write 'rtl_study/src/**/*.{js,jsx,ts,tsx}'",
     "lint:fix": "eslint --fix 'rtl_study/src/**/*.{js,jsx,ts,tsx}'"
-  },
-  "lint-staged": {
-    "rtl_study/src/**/*.{js,jsx,ts,tsx}": [
-      "npm run fix"
-    ]
   }
 }
