@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Render = () => {
   return (
@@ -10,7 +10,7 @@ const Render = () => {
       <p>Testing</p>
       <span data-testid="test">@React</span>
     </div>
-  )
-}
+  );
+};
 
-export default Render
+export default Render;
