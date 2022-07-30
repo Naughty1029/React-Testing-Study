@@ -1,10 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import { Counter } from './features/counter/Counter';
-import RenderInput from './RenderInput';
+
+import RenderInput from './tests/RenderInput/RenderInput';
+import FrameworkList from './tests/FrameWorkList/FrameworkList';
+import MockServer from './tests/MockServer/MockServer';
+
 import './App.css';
-import FrameworkList from './FrameworkList';
-import MockServer from './MockServer';
 
 function App() {
   /*追加 output関数*/
